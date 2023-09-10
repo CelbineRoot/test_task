@@ -6,8 +6,8 @@ ___USER swagger:___ http://localhost:3000/870c66c1-64e0-418f-9d78-57c38739dd23/d
 
 Для запуска потребуется:
 
-* ``./todo-api/env.example ./todo-api/.env``
-* ``./user-api/env.example ./user-api/.env``
+* ``cp ./todo-api/env.example ./todo-api/.env``
+* ``cp ./user-api/env.example ./user-api/.env``
 * ``docker-compose build``
 * ``docker-compose up -d``
 
